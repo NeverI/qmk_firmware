@@ -1,0 +1,51 @@
+// common shortcuts
+KEYS(AA | AO | AP,       press_ctrl_f,     {KC_LCTL, KC_F, COMBO_END})
+KEYS(AS | AO | AP,       press_ctrl_x,     {KC_LCTL, KC_X, COMBO_END})
+KEYS(AE | AO | AP,       press_ctrl_c,     {KC_LCTL, KC_C, COMBO_END})
+KEYS(AE | AO | AP | AR,  press_ctrl_alt_c, {KC_LCTL, KC_LALT, KC_C, COMBO_END})
+KEYS(AT | AO | AP,       press_ctrl_v,     {KC_LCTL, KC_V, COMBO_END})
+KEYS(AT | AO | AP | AR,  press_ctrl_alt_v, {KC_LCTL, KC_LALT, KC_V, COMBO_END})
+KEYS(AN | AO | AP,       press_ctrl_z,     {KC_LCTL, KC_Y, COMBO_END})
+
+// i3 shortcuts
+KEYS(AA | AT | AN,                press_gui_enter,  {KC_LGUI, KC_ENT, COMBO_END})
+
+KEYS(AA | AP | AR,       press_gui_bck,         {KC_LGUI, KC_BSPC, COMBO_END})
+KEYS(AA | AP | AL | AR,  press_c_gi_bck,        {KC_LGUI, KC_LCTL, KC_BSPC, COMBO_END})
+
+KEYS(AA | AS | AL | AR,           press_gui_w,  {KC_LGUI, KC_W, COMBO_END})
+KEYS(AA | AN | AL | AR,           press_gui_y,  {KC_LGUI, KC_Z, COMBO_END})
+KEYS(AA | AI | AL | AR,           press_s_gu_q, {KC_LSFT, KC_LGUI, KC_Q, COMBO_END})
+KEYS(AS | AE | AL | AR,           press_gui_d,  {KC_LGUI, KC_D, COMBO_END})
+KEYS(AS | AT | AL | AR,           press_gui_r,  {KC_LGUI, KC_R, COMBO_END})
+KEYS(AS | AP | AL | AR,           press_gui_x,  {KC_LGUI, KC_X, COMBO_END})
+
+KEYS(AI | AO | AP | AA | AR,      press_alt_0,  {KC_LALT, KC_GRV, COMBO_END})
+KEYS(AI | AO | AP | AA | AL | AR, press_gui_0,  {KC_LGUI, KC_GRV, COMBO_END})
+KEYS(AI | AO | AP | AS | AR,      press_alt_1,  {KC_LALT, KC_1, COMBO_END})
+KEYS(AI | AO | AP | AS | AL | AR, press_gui_1,  {KC_LGUI, KC_1, COMBO_END})
+KEYS(AI | AO | AP | AE | AR,      press_alt_2,  {KC_LALT, KC_2, COMBO_END})
+KEYS(AI | AO | AP | AE | AL | AR, press_gui_2,  {KC_LGUI, KC_2, COMBO_END})
+KEYS(AI | AO | AP | AT | AR,      press_alt_3,  {KC_LALT, KC_3, COMBO_END})
+KEYS(AI | AO | AP | AT | AL | AR, press_gui_3,  {KC_LGUI, KC_3, COMBO_END})
+KEYS(AA | AS | AE | AN | AR,      press_alt_5,  {KC_LALT, KC_5, COMBO_END})
+KEYS(AA | AS | AE | AN | AL | AR, press_gui_5,  {KC_LGUI, KC_5, COMBO_END})
+KEYS(AA | AS | AE | AI | AR,      press_alt_7,  {KC_LALT, KC_7, COMBO_END})
+KEYS(AA | AS | AE | AI | AL | AR, press_gui_7,  {KC_LGUI, KC_7, COMBO_END})
+KEYS(AA | AS | AE | AO | AR,      press_alt_8,  {KC_LALT, KC_8, COMBO_END})
+KEYS(AA | AS | AE | AO | AL | AR, press_gui_8,  {KC_LGUI, KC_8, COMBO_END})
+KEYS(AA | AS | AE | AP | AR,      press_alt_9,  {KC_LALT, KC_9, COMBO_END})
+KEYS(AA | AS | AE | AP | AL | AR, press_gui_9,  {KC_LGUI, KC_9, COMBO_END})
+
+
+// vim shortcuts
+KEYS(AA | AR,             press_ctrl_a,         {KC_LCTL, KC_A, COMBO_END})
+KEYS(AA | AS | AR,        press_ctrl_w,         {KC_LCTL, KC_W, COMBO_END})
+KEYS(AA | AT | AR,        press_alt_f,          {KC_LALT, KC_F, COMBO_END})
+KEYS(AA | AI | AR,        press_alt_q,          {KC_LALT, KC_Q, COMBO_END})
+KEYS(AS | AT | AR,        press_ctrl_r,         {KC_LCTL, KC_R, COMBO_END})
+KEYS(AA | AN | AR,        press_alt_y,          {KC_LALT, KC_Z, COMBO_END})
+KEYS(AS | AE | AR,        press_alt_d,          {KC_LALT, KC_D, COMBO_END})
+KEYS(AS | AO | AR,        press_alt_hat,        {KC_LALT, KC_RALT, KC_3, COMBO_END})
+KEYS(AS | AP | AR,        press_alt_x,          {KC_LALT, KC_X, COMBO_END})
+KEYS(AO | AR,             press_ctrl_o,         {KC_LCTL, KC_O, COMBO_END})
