@@ -6,6 +6,7 @@
 // highest dictionary will get matched
 
 #include "hu-keymap.def"
+#include "directions-keymap.def"
 #include "dicts/aset/cmd-keymap.def"
 #include "dicts/aset/num-keymap.def"
 #include "dicts/aset/layer-keymap.def"
