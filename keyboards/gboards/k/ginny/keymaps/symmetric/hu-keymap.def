@@ -1,0 +1,88 @@
+// simple letters
+PRES(AA,                                  KC_A)
+PRES(AS,                                  KC_S)
+PRES(AE,                                  KC_E)
+PRES(AT,                                  KC_T)
+PRES(AN,                                  KC_N)
+PRES(AI,                                  KC_I)
+PRES(AO,                                  KC_O)
+PRES(AP,                                  KC_P)
+PRES(AA | AS,                             KC_W)
+PRES(AA | AE,                             KC_C)
+PRES(AA | AT,                             KC_F)
+PRES(AA | AN,                             KC_Z)
+PRES(AA | AI,                             KC_Q)
+PRES(AS | AP,                             KC_X)
+PRES(AS | AE,                             KC_D)
+PRES(AS | AT,                             KC_R)
+PRES(AS | AN,                             KC_Y)
+PRES(AE | AT,                             KC_G)
+PRES(AE | AN,                             KC_M)
+PRES(AT | AN,                             KC_B)
+PRES(AT | AI,                             KC_V)
+PRES(AN | AI,                             KC_H)
+PRES(AN | AO,                             KC_U)
+PRES(AN | AP,                             KC_J)
+PRES(AI | AO,                             KC_K)
+PRES(AO | AP,                             KC_L)
+
+// hungarian accent letters
+PRES(AA | AT | AO,                          KC_LBRC) // ő
+PRES(AA | AT | AP,                          KC_QUOT) // á
+PRES(AS | AT | AO,                          KC_0) // ö
+PRES(AS | AN | AO,                          KC_BSLS) // ű
+KEYS(AE | AT | AI,       press_ii,         {KC_RALT, KC_J, COMBO_END})
+KEYS(AE | AT | AI | AL,  press_II,         {KC_RALT, KC_LSFT, KC_J, COMBO_END})
+PRES(AE | AT | AO,                          KC_EQL) // ó
+PRES(AE | AT | AP,                          KC_SCLN) // é
+PRES(AE | AN | AO,                          KC_MINS) // ü
+PRES(AT | AN | AO,                          KC_RBRC) // ú
+
+// symbols for my taste
+PRES(AA | AO,                               KC_DOT)
+KEYS(AS | AT | AN,       press_hash,       {KC_RALT, KC_X, COMBO_END})
+KEYS(AS | AT | AN | AL,  press_at,         {KC_RALT, KC_V, COMBO_END})
+KEYS(AS | AI,            press_bslash,     {KC_RALT, KC_Q, COMBO_END})
+KEYS(AS | AI | AL,       press_pipe,       {KC_RALT, KC_W, COMBO_END})
+KEYS(AS | AO,            press_hat,        {KC_RALT, KC_3, COMBO_END})
+KEYS(AS | AO | AL,       press_and,        {KC_RALT, KC_C, COMBO_END})
+KEYS(AE | AI,            press_semic,      {KC_RALT, KC_COMM, COMBO_END})
+KEYS(AE | AI | AL,       press_star,       {KC_RALT, KC_SLSH, COMBO_END})
+KEYS(AE | AO,            press_excla,      {KC_LSFT, KC_4, COMBO_END})
+KEYS(AE | AO | AL,       press_plus,       {KC_LSFT, KC_3, COMBO_END})
+KEYS(AE | AP,            press_dol,        {KC_RALT, KC_SCLN, COMBO_END})
+KEYS(AE | AP | AL,       press_wave,       {KC_RALT, KC_1, COMBO_END})
+KEYS(AT | AO,            press_slash,      {KC_LSFT, KC_6, COMBO_END})
+KEYS(AT | AO | AL,       press_percent,    {KC_LSFT, KC_5, COMBO_END})
+PRES(AT | AP,                               KC_SLSH)
+PRES(AI | AP,                               KC_COMM)
+
+// brackets
+KEYS(AA | AS | AE | AT | AN, press_r_bra,  {KC_LSFT, KC_8, COMBO_END})
+KEYS(AN | AI | AO | AP | AT, press_l_bra,  {KC_LSFT, KC_9, COMBO_END})
+KEYS(AA | AS | AE | AT | AI, press_r_cbra, {KC_RALT, KC_N, COMBO_END})
+KEYS(AN | AI | AO | AP | AE, press_l_cbra, {KC_RALT, KC_B, COMBO_END})
+KEYS(AA | AS | AE | AT | AO, press_r_sbra, {KC_RALT, KC_G, COMBO_END})
+KEYS(AN | AI | AO | AP | AS, press_l_sbra, {KC_RALT, KC_F, COMBO_END})
+KEYS(AA | AS | AE | AT | AP, press_gt,     {KC_RALT, KC_M, COMBO_END})
+KEYS(AN | AI | AO | AP | AA, press_lt,     {KC_RALT, KC_COMM, COMBO_END})
+
+// hungarian style numbers
+PRES(AI | AO | AP | AA,                     KC_GRV)
+KEYS(AI | AO | AP | AA | AL, press_tik,    {KC_RALT, KC_7, COMBO_END})
+PRES(AI | AO | AP | AS,                     KC_1)
+PRES(AI | AO | AP | AE,                     KC_2)
+PRES(AI | AO | AP | AT,                     KC_3)
+PRES(AI | AO | AP | AT | AL,                KC_4)
+PRES(AA | AS | AE | AN,                     KC_5)
+PRES(AA | AS | AE | AN | AL,                KC_6)
+PRES(AA | AS | AE | AI,                     KC_7)
+PRES(AA | AS | AE | AO,                     KC_8)
+PRES(AA | AS | AE | AP,                     KC_9)
+
+// backspace, delete, enter, tab
+PRES(AA | AP,                               KC_BSPC)
+PRES(AA | AP | AL,                          KC_DEL)
+PRES(AA | AS | AE | AT,                     KC_TAB)
+PRES(AN | AI | AO | AP,                     KC_ENT)
+PRES(AN | AI | AO | AP | AR,                KC_ESC)

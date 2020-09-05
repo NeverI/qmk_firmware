@@ -1,0 +1,11 @@
+
+// This is what dictionaries are currently loaded to your device
+// You must add the dictionary to both parts of the keymap
+//
+// Please note the ordering is important! If there are any chord conflicts the
+// highest dictionary will get matched
+
+#include "hu-keymap.def"
+#include "dicts/aset/cmd-keymap.def"
+#include "dicts/aset/num-keymap.def"
+#include "dicts/aset/layer-keymap.def"
