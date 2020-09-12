@@ -29,14 +29,14 @@ PRES(AO | AP,                             KC_L)
 // hungarian accent letters
 PRES(AA | AT | AO,                          KC_LBRC) // ő
 PRES(AA | AT | AP,                          KC_QUOT) // á
+PRES(AA | AN | AO,                          KC_BSLS) // ű
 PRES(AS | AT | AO,                          KC_0) // ö
-PRES(AS | AN | AO,                          KC_BSLS) // ű
+PRES(AS | AN | AO,                          KC_MINS) // ü
 KEYS(AE | AT | AI,       press_ii,         {KC_RALT, KC_J, COMBO_END})
 KEYS(AE | AT | AI | AL,  press_II,         {KC_RALT, KC_LSFT, KC_J, COMBO_END})
+PRES(AE | AN | AO,                          KC_RBRC) // ú
 PRES(AE | AT | AO,                          KC_EQL) // ó
 PRES(AE | AT | AP,                          KC_SCLN) // é
-PRES(AE | AN | AO,                          KC_MINS) // ü
-PRES(AT | AN | AO,                          KC_RBRC) // ú
 
 // symbols for my taste
 PRES(AA | AO,                               KC_DOT)
