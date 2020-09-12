@@ -40,8 +40,6 @@ PRES(AT | AN | AO,                          KC_RBRC) // ú
 
 // symbols for my taste
 PRES(AA | AO,                               KC_DOT)
-KEYS(AS | AT | AN,       press_hash,       {KC_RALT, KC_X, COMBO_END})
-KEYS(AS | AT | AN | AL,  press_at,         {KC_RALT, KC_V, COMBO_END})
 KEYS(AS | AI,            press_bslash,     {KC_RALT, KC_Q, COMBO_END})
 KEYS(AS | AI | AL,       press_pipe,       {KC_RALT, KC_W, COMBO_END})
 KEYS(AS | AO,            press_hat,        {KC_RALT, KC_3, COMBO_END})
@@ -52,6 +50,8 @@ KEYS(AE | AO,            press_excla,      {KC_LSFT, KC_4, COMBO_END})
 KEYS(AE | AO | AL,       press_plus,       {KC_LSFT, KC_3, COMBO_END})
 KEYS(AE | AP,            press_dol,        {KC_RALT, KC_SCLN, COMBO_END})
 KEYS(AE | AP | AL,       press_wave,       {KC_RALT, KC_1, COMBO_END})
+KEYS(AE | AT | AN,       press_at,         {KC_RALT, KC_V, COMBO_END})
+KEYS(AE | AT | AN | AL,  press_hash,       {KC_RALT, KC_X, COMBO_END})
 KEYS(AT | AO,            press_slash,      {KC_LSFT, KC_6, COMBO_END})
 KEYS(AT | AO | AL,       press_percent,    {KC_LSFT, KC_5, COMBO_END})
 PRES(AT | AP,                               KC_SLSH)
