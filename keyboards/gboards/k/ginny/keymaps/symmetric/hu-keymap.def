@@ -27,8 +27,8 @@ PRES(AI | AO,                             KC_K)
 PRES(AO | AP,                             KC_L)
 
 // hungarian accent letters
+PRES(AA | AE | AP,                          KC_QUOT) // á
 PRES(AA | AT | AO,                          KC_LBRC) // ő
-PRES(AA | AT | AP,                          KC_QUOT) // á
 PRES(AA | AN | AO,                          KC_BSLS) // ű
 PRES(AS | AT | AO,                          KC_0) // ö
 PRES(AS | AN | AO,                          KC_MINS) // ü
