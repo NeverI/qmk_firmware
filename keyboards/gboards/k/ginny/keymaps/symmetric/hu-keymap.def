@@ -58,14 +58,14 @@ PRES(AT | AP,                               KC_SLSH)
 PRES(AI | AP,                               KC_COMM)
 
 // brackets
-KEYS(AA | AS | AE | AT | AN, press_r_bra,  {KC_LSFT, KC_9, COMBO_END})
-KEYS(AN | AI | AO | AP | AT, press_l_bra,  {KC_LSFT, KC_8, COMBO_END})
-KEYS(AA | AS | AE | AT | AI, press_r_cbra, {KC_RALT, KC_N, COMBO_END})
-KEYS(AN | AI | AO | AP | AE, press_l_cbra, {KC_RALT, KC_B, COMBO_END})
-KEYS(AA | AS | AE | AT | AO, press_r_sbra, {KC_RALT, KC_G, COMBO_END})
-KEYS(AN | AI | AO | AP | AS, press_l_sbra, {KC_RALT, KC_F, COMBO_END})
-KEYS(AA | AS | AE | AT | AP, press_lt,     {KC_RALT, KC_DOT, COMBO_END})
-KEYS(AN | AI | AO | AP | AA, press_gt,     {KC_RALT, KC_M, COMBO_END})
+KEYS(AA | AS | AE | AT | AN, press_l_bra,  {KC_LSFT, KC_8, COMBO_END})
+KEYS(AN | AI | AO | AP | AT, press_r_bra,  {KC_LSFT, KC_9, COMBO_END})
+KEYS(AA | AS | AE | AT | AI, press_l_cbra, {KC_RALT, KC_B, COMBO_END})
+KEYS(AN | AI | AO | AP | AE, press_r_cbra, {KC_RALT, KC_N, COMBO_END})
+KEYS(AA | AS | AE | AT | AO, press_l_sbra, {KC_RALT, KC_F, COMBO_END})
+KEYS(AN | AI | AO | AP | AS, press_r_sbra, {KC_RALT, KC_G, COMBO_END})
+KEYS(AA | AS | AE | AT | AP, press_gt,     {KC_RALT, KC_M, COMBO_END})
+KEYS(AN | AI | AO | AP | AA, press_lt,     {KC_RALT, KC_DOT, COMBO_END})
 
 // hungarian style numbers
 PRES(AI | AO | AP | AA,                     KC_GRV)
