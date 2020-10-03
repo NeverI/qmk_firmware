@@ -1,10 +1,10 @@
 // home, end, pgup, pgdown
 PRES(AA | AN | AP,                          KC_HOME)
 KEYS(AA | AN | AP | AR, press_alt_home,    {KC_LALT, KC_HOME, COMBO_END})
-PRES(AS | AN | AP,                          KC_PGUP)
-KEYS(AS | AN | AP | AR, press_alt_pgup,    {KC_LALT, KC_PGUP, COMBO_END})
-PRES(AE | AN | AP,                          KC_PGDN)
-KEYS(AE | AN | AP | AR, press_alt_pgdown,  {KC_LALT, KC_PGDN, COMBO_END})
+PRES(AS | AN | AP,                          KC_PGDN)
+KEYS(AS | AN | AP | AR, press_alt_pgdown,  {KC_LALT, KC_PGDN, COMBO_END})
+PRES(AE | AN | AP,                          KC_PGUP)
+KEYS(AE | AN | AP | AR, press_alt_pgup,    {KC_LALT, KC_PGUP, COMBO_END})
 PRES(AT | AN | AP,                          KC_END)
 KEYS(AT | AN | AP | AR, press_alt_end,     {KC_LALT, KC_END, COMBO_END})
 
