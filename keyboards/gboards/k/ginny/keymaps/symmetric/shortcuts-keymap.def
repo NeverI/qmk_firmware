@@ -39,7 +39,7 @@ KEYS(AA | AS | AE | AP | AL | AR, press_gui_9,  {KC_LGUI, KC_9, COMBO_END})
 
 
 // vim shortcuts
-KEYS(AA | AR,             press_ctrl_a,         {KC_LCTL, KC_A, COMBO_END})
+KEYS(AA | AL | AR,        press_ctrl_a,         {KC_LCTL, KC_A, COMBO_END})
 KEYS(AA | AS | AR,        press_ctrl_w,         {KC_LCTL, KC_W, COMBO_END})
 KEYS(AA | AT | AR,        press_alt_f,          {KC_LALT, KC_F, COMBO_END})
 KEYS(AA | AI | AR,        press_alt_q,          {KC_LALT, KC_Q, COMBO_END})
@@ -48,4 +48,4 @@ KEYS(AA | AN | AR,        press_alt_y,          {KC_LALT, KC_Z, COMBO_END})
 KEYS(AS | AE | AR,        press_alt_d,          {KC_LALT, KC_D, COMBO_END})
 KEYS(AS | AO | AR,        press_alt_hat,        {KC_LALT, KC_RALT, KC_3, COMBO_END})
 KEYS(AS | AP | AR,        press_alt_x,          {KC_LALT, KC_X, COMBO_END})
-KEYS(AO | AR,             press_ctrl_o,         {KC_LCTL, KC_O, COMBO_END})
+KEYS(AO | AL | AR,        press_ctrl_o,         {KC_LCTL, KC_O, COMBO_END})
