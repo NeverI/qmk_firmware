@@ -1,0 +1,30 @@
+// Gergoplex specfic combos
+
+COMB(bgWheelUp,      KC_WH_U,     KC_B, KC_G)
+COMB(ptLeftMouse,    KC_BTN1,     KC_P, KC_T)
+COMB(fsMiddleMouse,  KC_BTN2,     KC_F, KC_S)
+COMB(wrRightMouse,   KC_BTN3,     KC_W, KC_R)
+COMB(qaWheelDown,    KC_WH_D,     KC_Q, KC_A)
+
+COMB(gvEnd,          KC_END,      KC_G, KC_V)
+COMB(tdPageUp,       KC_PGUP,     KC_T, KC_D)
+COMB(scPageDown,     KC_PGDN,     KC_S, KC_C)
+COMB(rxHome,         KC_HOME,     KC_R, KC_X)
+
+COMB(jmMouseLeft,    KC_MS_L,     KC_J, KC_M)
+COMB(knMouseDown,    KC_MS_D,     KC_K, KC_N)
+COMB(ueMouseUp,      KC_MS_U,     KC_U, KC_E)
+COMB(yiMouseRight,   KC_MS_R,     KC_Y, KC_I)
+
+COMB(mhLeft,         KC_LEFT,     KC_M, KC_H)
+COMB(nlDown,         KC_DOWN,     KC_N, KC_L)
+COMB(ecomUp,         KC_UP,       KC_E, KC_COMM)
+COMB(idotRight,      KC_RIGHT,    KC_I, KC_DOT)
+
+COMB(f7f4VolDown,    KC_VOLD,     KC_F7, KC_F4)
+COMB(f8f5Mute,       KC_MUTE,     KC_F8, KC_F5)
+COMB(f9f6VolUp,      KC_VOLU,     KC_F9, KC_F6)
+
+COMB(f4f1PrevTrack, KC_MPRV,     KC_F4, KC_F1)
+COMB(f5f2PlayPause, KC_MPLY,     KC_F5, KC_F2)
+COMB(f6f3NextTrack, KC_MSTP,     KC_F6, KC_F3)
