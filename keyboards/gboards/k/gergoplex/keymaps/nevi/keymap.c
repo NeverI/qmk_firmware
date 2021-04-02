@@ -38,7 +38,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |  CTRL/Z  |  X  |  C  |  D  |  V  |      |  H  |  L  |  ,  |  .  |  CTRL/-  |
  * `----------------------------------'		   `----------------------------------'
  * .--------------------------------------.  .-------------------------------------.
- * |  ESC/META  |  BSPC(SYM)  |  ENT/ALT  |  |  ESC/META  |  SPC(NUM)  |  TAB/ALT  |
+ * |  ESC/META  |  SPC(SYM)  |  ENT/ALT  |  |  ESC/META  |  BSPC(NUM)  |  TAB/ALT  |
  * '--------------------------------------'  '-------------------------------------'
  */
 [BASE] = LAYOUT_gergoplex(
@@ -46,28 +46,28 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     MT(MOD_LSFT, KC_A),KC_R, KC_S, KC_T, KC_G,  	KC_M, KC_N, KC_E,    KC_I, 	 MT(MOD_LSFT, KC_O),
     MT(MOD_LCTL, KC_Z),KC_X, KC_C, KC_D, KC_V,  	KC_H, KC_L, KC_COMM, KC_DOT, MT(MOD_LCTL, KC_SLSH),
 
- 		MT(MOD_LGUI, KC_ESC), LT(SYMB, KC_BSPC), MT(MOD_LALT, KC_ENT),	 // Left
-		MT(MOD_LGUI, KC_ESC), LT(NUMB, KC_SPC),  MT(MOD_LALT, KC_TAB)	 // Right
+ 		MT(MOD_LGUI, KC_ESC), LT(SYMB, KC_SPC), MT(MOD_LALT, KC_ENT),	 // Left
+		MT(MOD_LGUI, KC_ESC), LT(NUMB, KC_BSPC),  MT(MOD_LALT, KC_TAB)	 // Right
     ),
 /* Keymap 1: Symbols layer
  * ,-----------------------------------.       ,---------------------------------.
- * |      \    |  `  |  <  |  >  |  '  |      |  "  |  Ü  |  Ú  |  Ű  |     Ő    |
+ * |      \    |  "  |  <  |  >  |  `  |      |  |  |  Ü  |  Ú  |  Ű  |     Ő    |
  * |-----------------------------------|      |----------------------------------|
- * |  SHFT/Á   |  |  |  [  |  ]  |  ^  |      |  $  |  /  |  É  |  Í  |  SHFT/Ó  |
+ * |  SHFT/Á   |  '  |  [  |  ]  |  ^  |      |  $  |  /  |  É  |  Í  |  SHFT/Ó  |
  * |-----------------------------------|		  |----------------------------------|
- * |  CTRL/DEL |  ~  |  {  |  }  |  %  |      |  &  |  !  |  #  |  @  |  CTRL/Ö  |
+ * |  CTRL/DEL |  ~  |  {  |  }  |  #  |      |  &  |  %  |  !  |  @  |  CTRL/Ö  |
  * `-----------------------------------'		   `---------------------------------'
  * .--------------------------------------.  .-------------------------------------.
- * |  ESC/META  |  BSPC(SYM)  |  ENT/ALT  |  |  ESC/META  |  SPC(NUM)  |  TAB/ALT  |
+ * |  ESC/META  |  SPC(SYM)  |  ENT/ALT  |  |  ESC/META  |  BSPC(NUM)  |  TAB/ALT  |
  * '--------------------------------------'  '-------------------------------------'
  */
 [SYMB] = LAYOUT_gergoplex(
-    ALGR(KC_Q),            ALGR(KC_7), ALGR(KC_M), ALGR(KC_DOT), LSFT(KC_1),   // Left
-      LSFT(KC_2),    KC_MINS,    KC_RBRC,    KC_BSLS,    KC_LBRC,              // Right
-    MT(MOD_LSFT, KC_QUOT), ALGR(KC_W), ALGR(KC_F), ALGR(KC_G),   ALGR(KC_3),   // Left
+    ALGR(KC_Q),            LSFT(KC_2), ALGR(KC_M), ALGR(KC_DOT), ALGR(KC_7),   // Left
+      ALGR(KC_W),    KC_MINS,    KC_RBRC,    KC_BSLS,    KC_LBRC,              // Right
+    MT(MOD_LSFT, KC_QUOT), LSFT(KC_1), ALGR(KC_F), ALGR(KC_G),   ALGR(KC_3),   // Left
       ALGR(KC_SCLN), LSFT(KC_6), KC_SCLN,    ALGR(KC_J), MT(MOD_LSFT, KC_EQL), // Right
-    MT(MOD_LSFT, KC_DEL),  ALGR(KC_1), ALGR(KC_B), ALGR(KC_N),   LSFT(KC_5),   // Left
-      ALGR(KC_C),    LSFT(KC_4), ALGR(KC_X), ALGR(KC_V), MT(MOD_LCTL, KC_0),    // Right
+    MT(MOD_LSFT, KC_DEL),  ALGR(KC_1), ALGR(KC_B), ALGR(KC_N),   ALGR(KC_X),  // Left
+      ALGR(KC_C),    LSFT(KC_5), LSFT(KC_4), ALGR(KC_V), MT(MOD_LCTL, KC_0),   // Right
 
       KC_TRNS, KC_TRNS, KC_TRNS,
       KC_TRNS, KC_TRNS, KC_TRNS
@@ -95,7 +95,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |  CTRL/F12  |  F1  |  F2  |  F3  |  %  |      |  +  |  1  |  2  |  3  |  CTRL/ENT  |
  * `---------------------------------------'		  `------------------------------------'
  * .--------------------------------------.  .-------------------------------------.
- * |  ESC/META  |  BSPC(SYM)  |  ENT/ALT  |  |  ESC/META  |  SPC(NUM)  |  TAB/ALT  |
+ * |  ESC/META  |  SPC(SYM)  |  ENT/ALT  |  |  ESC/META  |  BSPC(NUM)  |  TAB/ALT  |
  * '--------------------------------------'  '-------------------------------------'
  */
 [NUMB] = LAYOUT_gergoplex(
