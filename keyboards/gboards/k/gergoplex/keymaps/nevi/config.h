@@ -1,4 +1,3 @@
-#undef TAPPING_TERM
 #undef DEBOUNCE
 #undef COMBO_TERM
 
@@ -7,5 +6,5 @@
 #define COMBO_VARIABLE_LEN
 #define COMBO_TERM 40
 
-#define TAPPING_TERM 175
+#define TAPPING_TERM_PER_KEY
 #define RETRO_TAPPING

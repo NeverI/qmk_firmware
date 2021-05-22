@@ -13,6 +13,18 @@
 #define SYMB 1 // symbols
 #define NUMB 2 // numbers/motion
 
+uint16_t get_tapping_term(uint16_t keycode, keyrecord_t *record) {
+    switch (keycode) {
+        case LT(SYMB, KC_SPC):
+            return 50;
+        case LT(NUMB, KC_BSPC):
+            return 50;
+        default:
+            return TAPPING_TERM;
+    }
+}
+
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Combomap
  *
