@@ -63,11 +63,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [SYMB] = LAYOUT_gergoplex(
     ALGR(KC_Q),            LSFT(KC_2), ALGR(KC_M), ALGR(KC_DOT), ALGR(KC_7),   // Left
-      ALGR(KC_W),    KC_MINS,    KC_RBRC,    KC_BSLS,    KC_LBRC,              // Right
+      ALGR(KC_W),    KC_MINS,    KC_RBRC,    KC_BSLS,    KC_0,              // Right
     MT(MOD_LSFT, KC_QUOT), LSFT(KC_1), ALGR(KC_F), ALGR(KC_G),   ALGR(KC_3),   // Left
       ALGR(KC_SCLN), LSFT(KC_6), KC_SCLN,    ALGR(KC_J), MT(MOD_LSFT, KC_EQL), // Right
     MT(MOD_LSFT, KC_DEL),  ALGR(KC_1), ALGR(KC_B), ALGR(KC_N),   ALGR(KC_X),  // Left
-      ALGR(KC_C),    LSFT(KC_5), LSFT(KC_4), ALGR(KC_V), MT(MOD_LCTL, KC_0),   // Right
+      ALGR(KC_C),    LSFT(KC_5), LSFT(KC_4), ALGR(KC_V), MT(MOD_LCTL, KC_LBRC),   // Right
 
       KC_TRNS, KC_TRNS, KC_TRNS,
       KC_TRNS, KC_TRNS, KC_TRNS
